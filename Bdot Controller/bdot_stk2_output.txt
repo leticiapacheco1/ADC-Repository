@@ -1,0 +1,32 @@
+DARLA02 B-DOT DETUMBLING
+Tip-off:     11.0 deg/s per axis
+m_max:       0.150 A·m² per axis
+k_bdot:      3.3543e+04
+Req:         < 5.0 deg/s  |  Goal: < 0.75 deg/s
+Orb period:  94.62 min
+
+Connecting to STK12 (localhost:5001)...
+Connected.
+
+Running simulation... (STK animates live)
+  >> Below 5 deg/s at 1.43 orbits = 135.6 min
+  >> Below 5 deg/s at 1.44 orbits = 136.4 min
+  >> Below 5 deg/s at 1.45 orbits = 137.1 min
+  >> Below 5 deg/s at 1.46 orbits = 137.9 min
+  >> Below 5 deg/s at 1.47 orbits = 138.6 min
+  >> DETUMBLE CONFIRMED at 2.47 orbits = 3.9 hrs
+  >> Goal (0.75 deg/s) reached at 3.57 orbits
+
+Excel saved: DARLA02_angular_velocity.xlsx
+
+DARLA02 DETUMBLING REPORT 
+Inertia:       Ixx=0.024  Iyy=0.023  Izz=0.006 kg·m²
+MTQ m_max:     0.150 A·m² per axis (26 AWG, 6 layers)
+Initial tumble: 11.0 deg/s (tip-off)
+ADC requirement: < 5 deg/s on all axes
+Detumbled at:  2.3 hrs  (1.5 orbits = 0.10 days)
+Confirmed at:  2.5 orbits  (stable for 1 full orbit)
+RESULT: Depending on a 11 deg/s tip-off rate,
+         DARLA02 will detumble in 2.3 hours
+         (0.1 days / 1 orbits).
+         This meets the <5 deg/s ADC requirement.
