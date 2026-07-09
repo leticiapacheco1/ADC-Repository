@@ -1,1 +1,1 @@
-
+TRIAD (Tri-Axial Attitude Determination) is used as a deterministic attitude estimation method that reconstructs spacecraft orientation by aligning measured body-frame vectors with known reference-frame vectors. In the ADCS subsystem, TRIAD is implemented as an initial coarse attitude solution to establish spacecraft orientation using magnetic field and sun vector measurements.
